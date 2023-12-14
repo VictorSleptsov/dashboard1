@@ -1,0 +1,38 @@
+.table-holder {
+    overflow-x: auto;
+}
+
+.table {
+    font-size: 14px;
+    font-weight: 500;
+    border-collapse: collapse;
+    width: 100%;
+    white-space: nowrap;
+    margin-bottom: 15px;
+
+    td {
+        padding: 24px 0;
+        border-bottom: 1px solid #EEEEEE;
+    }
+
+    td:not(:last-child),
+    th:not(:last-child) {
+        padding-right: 20px;
+    }
+
+    th {
+        padding: 24px 0;
+        color: $grey;
+        text-align: left;
+    }
+
+    th:last-child,
+    td:last-child {
+        text-align: center;
+    }
+
+    .user-contact,
+    .user-mail {
+        color: inherit;
+    }
+}

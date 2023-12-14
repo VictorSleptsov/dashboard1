@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    vertical-align: top;
+}
+
+body {
+    font: 14px/ 1.5 'Poppins', sans-serif;
+    color: $dark;
+    background: $light-grey;
+}

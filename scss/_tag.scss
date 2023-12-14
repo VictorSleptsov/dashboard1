@@ -1,0 +1,19 @@
+.tag {
+    display: inline-block;
+    border-radius: 4px;
+    width: 80px;
+
+    &--success {
+        border: 1px solid #00B087;
+        padding: 4px 18px;
+        background: rgba(22, 192, 152, .38);
+        color: #00B087;
+    }
+
+    &--error {
+        border: 1px solid $red;
+        background-color: #FFC5C5;
+        padding: 4px 12px;
+        color: $red;
+    }
+}
